@@ -16,7 +16,7 @@
 # Based On:     check_storcenter by Claudio Kuenzler www.claudiokuenzler.com    #
 # License:      GPLv2                                                           #
 # History:                                                                      #
-# 20160421      Created plugin (types: disk, raid, cpu, info)                   #
+# 20160421      Created plugin (types: disk, raid, nic, info)                   #
 #################################################################################
 # Usage:        ./check_overlandstorage -H host -C community -t type [-w warning] [-c critical]
 #################################################################################
