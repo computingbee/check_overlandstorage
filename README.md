@@ -13,10 +13,13 @@ Usage:
 
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t disk
 DISK OK - 12 disks found, no problems
+
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t raid
 DISK OK - 3 raids found, no problems
+
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t nic
 NIC OK - 9 nics found, no problems
+
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t info
 ARRAYNAME, Uptime: 305 days, 16:34:52.58
 
