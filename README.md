@@ -9,32 +9,25 @@ supported MIBs.
 Tested with icinga2. It should also work with Nagios and its forks.
 
 
-Usage:
+Example:
 
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t disk
+
 DISK OK - 12 disks found, no problems
 
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t raid
+
 DISK OK - 3 raids found, no problems
 
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t nic
+
 NIC OK - 9 nics found, no problems
 
 check_overlandstorage.sh -H <hostname_or_ip> -C <community> -t info
+
 ARRAYNAME, Uptime: 305 days, 16:34:52.58
 
-Help:
 
-Usage: ./check_overlandstorage -H host -C community -t type [-w warning] [-c critical]
 Requirements: snmpwalk, sed, cut, echo, grep, 
 
-Options:        -H hostname
-                -C community (to be defined in snmpv2 settings on OverlandStorage SnapServer)
-                -t Type to check, see list below
-                -w Warning Threshold (optional)
-                -c Critical Threshold (optional)
-
-Types:          disk -> Checks hard disks for their current status
-                raid -> Checks the RAID status
-                cpu -> Check current CPU load (thresholds possible)
-                info -> Outputs some general information of the device
+Help: check_overlandstorage --help
