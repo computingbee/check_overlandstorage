@@ -1,0 +1,18 @@
+name: check_overlandstorage
+description: "file:///README.md"
+url: "https://github.com/computingbee/check_overlandstorage"
+tags: Overland Storage
+vendor: Overland Storage
+target: Storage
+type: Plugin
+license: gplv2
+releases: 
+  - 
+    name: 1.0
+    description: "1.0 Release - Active checks for disk, raid, and nic"
+    files: 
+      - 
+        name: check_overlandstorage.sh
+        url: "file:///check_overlandstorage.sh"
+        description: "First release"
+        checksum: 00433450d88e8110bf1c1328cad33133
